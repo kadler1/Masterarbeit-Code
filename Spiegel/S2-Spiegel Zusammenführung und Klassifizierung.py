@@ -47,9 +47,9 @@ for df in table_00:
 
 
 #CSV-Dateien einelsen und Headernamen hinzufügen
-table_80 = pd.read_table('Y80.csv', sep = ',', engine = 'python', chunksize = 20000, names=['ngram', 'number', 'class'])
-table_90 = pd.read_table('Y90.csv', sep = ',', engine = 'python', chunksize = 20000, names=['ngram', 'number', 'class'])
-table_00 = pd.read_table('Y00.csv', sep = ',', engine = 'python', chunksize = 20000, names=['ngram', 'number', 'class'])
+table_80 = pd.read_table('Y80.csv', sep = ',', engine = 'python', chunksize = 20000, names=['Article', 'Number', 'Class'])
+table_90 = pd.read_table('Y90.csv', sep = ',', engine = 'python', chunksize = 20000, names=['Article', 'Number', 'Class'])
+table_00 = pd.read_table('Y00.csv', sep = ',', engine = 'python', chunksize = 20000, names=['Article', 'Number', 'Class'])
 
 
 # In[7]:
