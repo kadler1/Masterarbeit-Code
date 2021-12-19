@@ -39,9 +39,9 @@ while True:
 # In[6]:
 
 
-#table_00 = pd.read_table(r'D:\Studium\Master\Masterarbeit\Datensets_Spiegel\Spiegel_s\spiegel_sample\spiegel00_5.csv', sep = ',', engine = 'python', names=['ngram', 'number', 'class'])
-#table_80 = pd.read_table(r'D:\Studium\Master\Masterarbeit\Datensets_Spiegel\Spiegel_s\spiegel_sample\spiegel80_5.csv', sep = ',', engine = 'python', names=['ngram', 'number', 'class'])
-#table_90 = pd.read_table(r'D:\Studium\Master\Masterarbeit\Datensets_Spiegel\Spiegel_s\spiegel_sample\spiegel90_5.csv', sep = ',', engine = 'python', names=['ngram', 'number', 'class'])
+#table_00 = pd.read_table(r'D:\Studium\Master\Masterarbeit\Datensets_Spiegel\Spiegel_s\spiegel_sample\spiegel00_5.csv', sep = ',', engine = 'python', names=['Article', 'Number', 'Class'])
+#table_80 = pd.read_table(r'D:\Studium\Master\Masterarbeit\Datensets_Spiegel\Spiegel_s\spiegel_sample\spiegel80_5.csv', sep = ',', engine = 'python', names=['Article', 'number', 'class'])
+#table_90 = pd.read_table(r'D:\Studium\Master\Masterarbeit\Datensets_Spiegel\Spiegel_s\spiegel_sample\spiegel90_5.csv', sep = ',', engine = 'python', names=['Article', 'Number', 'Class'])
 table_00 = pd.read_table(r'D:\Studium\Master\Masterarbeit\Datensets_Spiegel\Spiegel_s\spiegel_sample\NGrams\spiegel00_mini_nouns_adj2.csv', sep = ',', engine = 'python', encoding = 'utf-8')
 table_80 = pd.read_table(r'D:\Studium\Master\Masterarbeit\Datensets_Spiegel\Spiegel_s\spiegel_sample\NGrams\spiegel80_mini_nouns_adj2.csv', sep = ',', engine = 'python', encoding = 'utf-8')
 table_90 = pd.read_table(r'D:\Studium\Master\Masterarbeit\Datensets_Spiegel\Spiegel_s\spiegel_sample\NGrams\spiegel90_mini_nouns_adj2.csv', sep = ',', engine = 'python', encoding = 'utf-8')
